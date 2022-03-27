@@ -38,7 +38,7 @@ $('#'+ gamePattern[(gamePattern.length)-1]).fadeOut(100).fadeIn(100).fadeOut(100
 
 
        setTimeout(()=>{$("body").removeClass("game-over")},500);
-      $('h1').text("Game Over  Press Any Key to Restart");
+      $('h1').text("Game Over,  Press Any Key to Restart");
       startOver();
     }
 
